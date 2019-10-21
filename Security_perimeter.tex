@@ -1,0 +1,67 @@
+\documentclass[12pt]{article} % Документ принадлежит классу article, а также будет печататься в 12 пунктов.
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\theenumiii}
+\renewcommand{\theenumiii}{\theenumi.\arabic{enumii}.\arabic{enumiii}.}
+ \usepackage[russian]{babel} % Пакет поддержки русского языка
+ \title{Контур безопсности} % Заглавие документа
+ \date{16/10/2019} % Дата создания
+
+ \begin{document}
+   \begin{enumerate} 
+  \item Введение
+    \begin{enumerate} 
+        \item Цели
+        \item Границы применения
+        \item Определения, сокращения, термины
+        \item Ссылки
+        \item Краткий обзор
+    \end{enumerate} 
+  \item  Общее описание
+  	\begin{enumerate}
+  		\item Описание изделия
+  			\begin{enumerate}
+  				\item Интерфейсы системы
+  				\item Интерфейсы пользователя
+  				\item Интерфейсы аппаратных средств ЭВМ
+  				\item Интерфейсы программного обеспечения
+  				\item Интерфейсы коммуникаций
+  				\item Ограничения памяти
+  				\item Действия
+  				\item Требования настройки рабочих мест
+  			\end{enumerate}
+  		\item Функции изделия
+  		\item Характеристики пользователей
+  		\item Ограничения
+  		\item Предложения и зависимости
+  		\item Поднаборы требований(распределение требований)
+  	\end{enumerate}
+  \item Детальные требования
+  	\begin{enumerate}
+  		\item Внешние интерфейсы
+  		\item Функции
+  		\item Требования исполнения
+  		\item Требования логики базы данных
+  		\item Ограничения проекта
+  		\item Характеристики программного обеспечения системы
+  			\begin{enumerate}
+  				\item Надежность
+  				\item Эксплуатационная готовность
+  				\item Безопасность
+  				\item Ремонтопригодность
+  				\item Переносимость
+  			\end{enumerate}
+  		\item Структурирование детальных требований
+  			\begin{enumerate}
+  				\item Режим системы
+  				\item Классы пользователей
+  				\item Объекты
+  				\item Особенности
+  				\item Воздействие
+  				\item Реакция
+  				\item Функциональные иерархии
+  				\item Дополнительные комментарии
+  			\end{enumerate}
+  	\end{enumerate}
+\end{enumerate}
+ \end{document}
